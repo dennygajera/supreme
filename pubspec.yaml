@@ -1,0 +1,149 @@
+name: login
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter_launcher_icons: "^0.7.3"
+  flutter:
+    sdk: flutter
+  provider: ^4.3.1
+  flutter_rounded_date_picker: ^1.0.4
+  intl: ^0.16.1
+  date_range_picker: ^1.0.6
+  vibration: ^1.4.0
+  email_validator: ^1.0.0
+  http: ^0.12.2
+  shared_preferences: ^0.5.10
+  dotted_border: ^1.0.6
+  image_picker: ^0.6.7+7
+  local_auth: ^0.6.3
+  qr_flutter: ^3.2.0
+  flutter_rating_bar: ^3.0.1+1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/icons/appIcon.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/background.png
+    - assets/icons/Sidebar.png
+    - assets/icons/home.png
+    - assets/icons/What.png
+    - assets/icons/Where.png
+    - assets/icons/calender.png
+    - assets/icons/add.png
+    - assets/icons/AddProject.png
+    - assets/icons/selectedaddProject.png
+    - assets/icons/Hired.png
+    - assets/icons/read.png
+    - assets/icons/gym.png
+    - assets/icons/retaurant.png
+    - assets/icons/Hotels.png
+    - assets/icons/Expedia.png
+    - assets/icons/Goibibo.png
+    - assets/icons/oyo.png
+    - assets/icons/booking.png
+    - assets/icons/makemytrip.png
+    - assets/icons/Clothesbottom.png
+    - assets/icons/Electronicsbottom.png
+    - assets/icons/jewellarybottom.png
+    - assets/icons/Jewellary.png
+    - assets/icons/Electronics.png
+    - assets/icons/Clothes.png
+    - assets/icons/loginbubble.png
+    - assets/icons/user.png
+    - assets/icons/password.png
+    - assets/icons/loginbackground.png
+    - assets/icons/mail.png
+    - assets/icons/Usericon.png
+    - assets/icons/Lickicon.png
+    - assets/icons/Locationicon.png
+    - assets/icons/Acept.png
+    - assets/icons/Decline.png
+    - assets/icons/backicon.png
+    - assets/icons/addimgicon.png
+    - assets/icons/dashboard.png
+    - assets/icons/pendingRequest.png
+    - assets/icons/notifications.png
+    - assets/icons/allRequest.png
+    - assets/icons/profileIcon.png
+    - assets/icons/logout.png
+    - assets/icons/contractDetail.png
+    - assets/icons/message.png
+    - assets/images/oyoimg.png
+    - assets/images/Makemytripimg.png
+    - assets/images/expediaimg.png
+    - assets/images/bookingimg.png
+    - assets/images/qrcode.png
+    - assets/images/Barcode.png
+    - assets/images/profilebackground.png
+    - assets/images/editicon.png
+    - assets/images/profileimage.png
+    - assets/supremecardimage.png
+    
+ 
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,4 @@
+#Fri Sep 11 19:06:06 IST 2020
+base.0=/Users/darshan/Desktop/login/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
